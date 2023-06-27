@@ -12,7 +12,7 @@ body {
     -1px -1px 0 #000;
 }
 
-h1, p {
+h1 {
     width: 75vw;
     margin-left: 8px;
 }
@@ -23,6 +23,8 @@ h1, p {
     margin: 0.5rem 0;
 
 }
+
+
 
 .form-group {
     border: 2px solid rebeccapurple;
@@ -49,6 +51,11 @@ h1, p {
     border: solid 1px black;
     border-radius: 6px;
     margin-left: 25px;
+    color: magenta;
+    text-shadow: -1px 1px 0 cyan,
+    1px 1px 0 blue,
+    1px -1px 0 white,
+    -1px -1px 0 white;
 
 }
 
@@ -80,16 +87,37 @@ h1, p {
     border-bottom: solid 4px grey;
 }
 
-.top-inside {
-    margin-top: 6px;
-    margin-left: 6px;
+p.top-inside {
+    display: block;
+    margin: 0;
+    padding: 5px;
+
 
 }
 
-.bottom-inside {
+p.bottom-inside {
     display: block;
-    padding-left: 6px;
-    padding-top: 6px;
+    margin: 0;
+    padding: 5px;
+
+
+
+
+}
+
+p.bottom-inside2 {
+    display: block;
+    margin: 0;
+    padding: 5px;
+    color: black;
+    text-shadow: -0px 0 cyan,
+     0 0 blue,
+    0 0 white,
+    -1px 0 white;
+    font-size: small;
+
+
+
 
 
 }
